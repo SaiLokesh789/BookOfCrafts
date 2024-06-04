@@ -1,0 +1,17 @@
+.container{
+  display: flex;
+  min-height: 100vh;
+  display: flex;
+}
+
+.sidebar{
+  overflow: auto;
+}
+
+.childrenContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  overflow: auto;
+}

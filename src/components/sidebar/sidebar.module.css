@@ -1,0 +1,14 @@
+.container {
+  padding: 1rem;
+  width: 100%;
+  position: absolute;
+  transition: all .1s linear;
+}
+
+.links {
+  width: 100%;
+}
+
+.container[collapse="false"] {
+  padding-left: 0px;
+}

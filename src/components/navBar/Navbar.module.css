@@ -1,0 +1,35 @@
+.container {
+  height: 64px;
+  width: 100%;
+  position: fixed;
+  z-index: 30;
+  background-color: var(--background);
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  justify-content: space-between;
+  transition: all 0.1s linear;
+}
+
+.icon:hover {
+  background-color: #00000010;
+}
+
+.title {
+  display: flex;
+  color: var(--text);
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.logo {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px 0 15px;
+}
